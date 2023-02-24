@@ -16,7 +16,6 @@ body {
 }
 
 .header-right {
-    
     display: flex;
     justify-content: space-around;
     gap: 16px;
@@ -24,6 +23,10 @@ body {
 .header-links {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none
 }
 
 .frame1 {
@@ -53,11 +56,11 @@ body {
 
 .frame1-button {
     background: #3882f6;
-    border: 1px solid #3882f6;
     color: white;
-    padding: 5px 16px;
+    padding: 2px;
     border-radius: 8px;
     width: 80px;
+    text-align: center;
 }
 
 .frame1-image {
@@ -67,4 +70,107 @@ body {
     position: relative;
     background: gray;
     border-radius: 8px;
+}
+
+.frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame2-info {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.frame2-links {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    max-height: 1000px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.frame2-content {
+    display: table;
+    width: 100px;
+    height: 100px;
+}
+
+.frame2-image {
+    min-width: 100px;
+    min-height: 100px;
+    border: 2px solid #3882f6;
+    position: relative;
+    background: gray;
+    border-radius: 8px;
+}
+
+.text {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 16px;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 24PX;
+    align-items: center;
+}
+.frame3-info {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 400px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.frame3-sign {
+    width: 400px;
+    text-align: right;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3882f6;
+    color: white;
+    height: 100px;
+    gap: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: #e5e7eb;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    width: 500px;
+    padding: 30px;
+}
+
+.footer-title {
+    font-weight: bold;
+}
+.footer-button {
+    border: 1px solid white;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
 }
