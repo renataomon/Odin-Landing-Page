@@ -1,9 +1,9 @@
-<h1 align="center"> Odin-recipes </h1>
+<h1 align="center"> Landing page </h1>
 <h4 align="center"> 
     :construction:  under construction  :construction:
 </h4>
 <h4> The Odin Project </h1>
-Project: Landing Pages
+Project: Landing Page
 Foundations Course
 
 This is a second project for [Odin Project](https://www.theodinproject.com) in Foundations.
