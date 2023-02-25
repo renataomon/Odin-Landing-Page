@@ -32,6 +32,10 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .frame1 {
     background-color: #1f2937;
     display: flex;
@@ -137,13 +141,13 @@ a {
     display: flex;
     justify-content: center;
     text-align: justify;
-    width: 400px;
+    max-width: 600px;
     font-style: italic;
     margin-top: 30px;
 }
 
 .frame3-sign {
-    width: 400px;
+    width: 600px;
     text-align: right;
     margin-bottom: 30px;
     font-weight: bold;
